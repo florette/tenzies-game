@@ -1,0 +1,113 @@
+body {
+    background: #0b2434;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    color: #4a4e74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #2b283a;
+    font-family: "Karla";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.6px;
+    line-height: 30px;
+    margin: 0;
+}
+
+p {
+    margin: 0 0 20px;
+    max-width: 225px;
+}
+
+.main {
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 35px;
+    max-width: 320px;
+    text-align: center;
+}
+
+.die--wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 35px);
+    column-gap: 18px;
+    row-gap: 18px;
+}
+
+.die {
+    font-family: Karla, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2b283a;
+    cursor: pointer;
+}
+
+.roll--btn {
+    background: #5035ff;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-family: "Karla";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 8px 28px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+.result {
+    border-top: 1px solid #d7d7d7;
+    padding: 24px 0 0;
+}
+
+.result span {
+    font-family: Karla, sans-serif;
+    font-size: 18px;
+}
+
+.save--btn {
+    background: #ff009d;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-family: "Karla";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 8px 28px;
+
+    cursor: pointer;
+}
+
+.prev-results,
+.prev-results a {
+    color: #f5f5f5;
+}
+
+.prev-results ul {
+    padding: 0;
+}
+
+.prev-results li {
+    list-style: none;
+}
